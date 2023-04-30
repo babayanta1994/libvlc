@@ -1,7 +1,13 @@
 apply plugin: 'com.android.library'
+plugins {
+  id("maven-publish")
+}
+
+group = 'com.github.babayanta1994'
+
 
 android {
-
+ namespace = "com.android.library"
     defaultConfig {
         compileSdkVersion 30
         targetSdkVersion 30
